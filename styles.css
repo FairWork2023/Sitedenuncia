@@ -1,0 +1,246 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: 0%;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgb(8, 8, 8);
+    height: 300ch;
+
+}
+
+.topo {
+    margin-top: -17%;
+    background: rgba(13, 13, 14, 0.404);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+
+.logop {
+    position: absolute;
+    left: 42%;
+    color: white;
+    margin-top: -55px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.menu {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+.imgagendamento {
+    background-color: transparent;
+    border: none;
+    margin-left: -51px;
+    margin-top: -25px;
+}
+
+.imgartigo {
+    background-color: transparent;
+    border: none;
+    margin-left: -51px;
+    margin-top: -25px;
+}
+
+.imglocalização {
+    background-color: transparent;
+    border: none;
+    margin-left: -51px;
+    margin-top: -25px;
+}
+
+.dadosdomenu {
+
+    width: 0%;
+    height: 40%;
+    background: rgb(0, 0, 0);
+    z-index: 9;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+
+.dados a {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#myNav {
+    top: 3%;
+    border-radius: 0% 10% 10% 0%;
+}
+
+.closebtn {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -1%;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+
+}
+
+nav.hover {
+    display: flex;
+    border: transparent;
+}
+
+
+main .textomain {
+    color: white;
+    margin-top: 17%;
+    margin-left: 1%;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(165, 164, 164, 0.349);
+    width: 50%;
+    height: 25ch;
+    border-radius: 20px;
+}
+
+main .textomain button a {
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+main .textomain button {
+    border: 0;
+    background: #4C5469;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main .textomain button:hover {
+    background-color: #323744;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+
+main .textomain h1 {
+    margin-left: 8%;
+}
+
+main .textomain p {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+main .textomain button {
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+main .imagemp img {
+    margin-left: 54%;
+    margin-top: -22%;
+    border-radius: 20px;
+}
+
+.hr1 {
+    margin-top: 10%;
+    background-color: white;
+}
+
+footer {
+    background: #4C5469;
+    height: 45%;
+}
+
+.imglogologin {
+    border-radius: 20%;
+    margin-left: 45%;
+    margin-top: 13%;
+}
+
+.telalogin {
+    margin-left: 38%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.719);
+    width: 25%;
+    height: 40ch;
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+}
+
+.telalogin a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botãologin a button {
+    position: relative;
+    margin-left: 25%;
+    margin-top: 13%;
+    font-family: 'Poppins', sans-serif;
+    background: #4C5469;
+    border: 0;
+    color: white;
+    width: 40%;
+    height: 5ch;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.botãologin a button:hover {
+    background-color: #4c546988;
+}
+
+.telalogin .box-user {
+    position: relative;
+}
+
+.telalogin .box-user input {
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+.telalogin .box-user label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.telalogin .box-user input:focus~label,
+.telalogin .box-user input:valid~label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+}

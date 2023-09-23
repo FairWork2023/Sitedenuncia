@@ -6,15 +6,11 @@
 }
 
 body {
-    margin: 0px;
-    box-sizing: border-box;
-    background: rgb(8, 8, 8);
     height: 300ch;
-
 }
 
 .topo {
-    margin-top: -17%;
+    margin-top: -62.5%;
     background: rgba(13, 13, 14, 0.404);
     overflow: hidden;
     position: fixed;
@@ -24,11 +20,11 @@ body {
 
 .logop {
     position: absolute;
-    left: 42%;
+    left: 37%;
     color: white;
     margin-top: -55px;
     font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 
@@ -107,13 +103,18 @@ nav.hover {
     border: transparent;
 }
 
+.imagep {
+    position: relative;
+}
+
 
 main .textomain {
-    color: white;
-    margin-top: 17%;
+    position: absolute;
+    color: rgb(252, 250, 250);
+    background-color: rgba(0, 0, 0, 0.589);
+    margin-top: -45%;
     margin-left: 1%;
     font-family: 'Poppins', sans-serif;
-    background: rgba(165, 164, 164, 0.349);
     width: 50%;
     height: 25ch;
     border-radius: 20px;
@@ -121,14 +122,14 @@ main .textomain {
 
 main .textomain button a {
     text-decoration: none;
-    color: rgb(250, 248, 248);
+    color: rgb(7, 7, 7);
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
 main .textomain button {
     border: 0;
-    background: #4C5469;
+    background: white;
     width: 20%;
     padding: 10px;
     border-radius: 10px;
@@ -154,20 +155,14 @@ main .textomain button {
     margin-left: 35%;
 }
 
-main .imagemp img {
-    margin-left: 54%;
-    margin-top: -22%;
-    border-radius: 20px;
-}
-
-.hr1 {
-    margin-top: 10%;
-    background-color: white;
+.rodape{
+    margin-top: -5px;
 }
 
 footer {
     background: #4C5469;
-    height: 45%;
+    height: 130ch;
+
 }
 
 .imglogologin {
